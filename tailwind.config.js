@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        actonica: ["Actonica", "sans-serif"],
+        bruno: ["Bruno Ace", "sans-serif"],
       },
     },
   },

@@ -1,14 +1,13 @@
 import "./App.css";
-import { Header } from "./header";
+import { Header } from "./components/Header";
+import { TodoList } from "./components/TodoList";
 
 function App() {
   return (
-    <>
+    <div className="bg-[#a7a7a7]">
       <Header />
-      <div className="flex justify-between">
-        <h1>Hello world!</h1>
-      </div>
-    </>
+      <TodoList />
+    </div>
   );
 }
 
